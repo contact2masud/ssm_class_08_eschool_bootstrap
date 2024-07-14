@@ -1,0 +1,241 @@
+/* Google font input & Linkin */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Important Seetings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+body img {
+  vertical-align: middle;
+}
+
+ul,
+li,
+a,
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar CSS  */
+.navbar {
+  text-align: center;
+  background: #f0fff0;
+}
+.s_btn {
+  background: #21b573;
+  padding: 6px 20px;
+  font-family: Roboto;
+  padding: 6px 30spx;
+  color: white;
+  border-radius: 30px;
+}
+.s_btn:hover {
+  background: teal;
+  color: white;
+}
+.nav-item {
+  margin-left: 30px;
+}
+
+.nav-link {
+  color: black;
+}
+/* NAV CSS end  */
+
+/* Bnaner CSS start  */
+.banner_part {
+  background: #f0fff0;
+  padding: 50px 0;
+}
+
+.bnr_left p {
+  color: #fd511a;
+  padding-top: 40px;
+}
+
+.bnr_left h2 {
+  font-weight: 700;
+  font-size: 48px;
+  padding: 20px 0;
+  width: 75%;
+}
+
+.bnr_left h6 {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 20px 0;
+  width: 75%;
+  line-height: 36px;
+}
+
+button {
+  border-radius: 30px;
+}
+
+/* About Part CSS  */
+
+.about_content {
+  margin: 4% 0;
+  align-items: center;
+}
+.crs_cnt {
+  width: 100%;
+  padding: 50px 0;
+  background: #f0fff0;
+  text-align: center;
+}
+.crs_cnt:hover {
+  background: white;
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.1);
+}
+
+.crs_cnt h4 {
+  font-weight: 500;
+  padding-top: 20px;
+  font-size: 24px;
+  color: #413960;
+}
+/* Online Course Part CSS  */
+.course_head {
+  text-align: center;
+}
+
+.course_head h1 {
+  font-weight: 700;
+  font-size: 36px;
+  margin: 30px 0;
+  color: #413960;
+}
+.course_part {
+  width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.1);
+  justify-items: center;
+  padding: 20px 20px;
+  margin: 20px;
+}
+.upper_part {
+  width: 98%;
+  justify-content: center;
+  margin-left: 1%;
+}
+.upper_part img {
+  width: 100%;
+  height: 80%;
+  border-radius: 12px;
+}
+.upper_part h3 {
+  font-weight: 500;
+  font-size: 24px;
+  padding: 20px 0;
+  color: #413960;
+}
+.upper_part p {
+  color: #585859;
+}
+
+.C_btn {
+  background: #21b573;
+  color: white;
+  border-radius: 30px;
+}
+
+.C_btn:hover {
+  background: teal;
+  color: white;
+}
+.lower_part {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.left {
+  flex-basis: 60%;
+  font-size: 12px;
+}
+.left img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.right {
+  flex-basis: 40%;
+  font-size: 12px;
+  text-align: left;
+}
+.right img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+/* Testmonial Part CSS  */
+
+.test_Header h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 40px 0;
+}
+
+.img_part {
+  text-align: center;
+}
+.img_part img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.cont {
+  width: 98%;
+}
+
+.cont p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  padding: 10px 0;
+}
+/* Footer Part CSS  */
+footer {
+  background: #282531;
+  color: white;
+  padding: 60px 0 30px;
+}
+.text_p {
+  width: 90%;
+  color: #cdcdcd;
+  padding: 10px 20px;
+}
+
+.col {
+  margin-left: 40px;
+  padding: 10px;
+}
+.col ul li {
+  list-style-type: none;
+}
+.col ul li {
+  color: #cdcdcd;
+}
+
+.copy_right {
+  text-align: center;
+  padding-top: 60px;
+  color: #cdcdcd;
+}
